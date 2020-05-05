@@ -9,12 +9,12 @@ const UserSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-        unique: true,
         select: false
     },
     email: {
         type: String,
-        required: true
+        unique: true,
+        required: true,
     },
     token: {
         type: String,
@@ -30,11 +30,13 @@ const UserSchema = new mongoose.Schema({
     }
 })
 
-UserSchema.pre('save', async (next) => {
+UserSchema.pre('save', async function(next) {
     const hash = await bcrypt.hash(this.password, 10)
     this.password = hash
 
     next()
 })
 
-module.exports = mongoose.model('User', UserSchema)
+const User = mongoose.model('User', UserSchema)
+
+module.exports = User

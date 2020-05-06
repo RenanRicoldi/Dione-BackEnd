@@ -18,11 +18,11 @@ Mas você me pergunta e os ebooks, você também os acha lá e pode baixar e ler
 | Feito ou Não feito | A fazer |
 | ------------------ | ------- |
 | [x] | Usuário |
-| [] | Biblioteca |
-| [] | Livro |
-| [] | Pesquisa de Livro |
-| [] | Pesquisa de Biblioteca |
-| [] | Pesquisa de Livros por Localização |
+| [ ] | Biblioteca |
+| [ ] | Livro |
+| [ ] | Pesquisa de Livro |
+| [ ] | Pesquisa de Biblioteca |
+| [ ] | Pesquisa de Livros por Localização |
 
 ### Como contribuo pelo github
 1- Clone o repositório: 

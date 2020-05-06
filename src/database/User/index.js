@@ -20,11 +20,11 @@ const UserSchema = new mongoose.Schema({
         type: String,
         select: false,
     },
-    RecoverPass: {
+    ResetPass: {
         type: String,
         select: false,
     },
-    DateRecover: {
+    DateResetPass: {
         type: Date,
         select: false,
     }

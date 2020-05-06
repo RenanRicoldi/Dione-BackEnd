@@ -1,6 +1,8 @@
 # Dione
 - [o que é o dione](#o-que-é-o-Dione)
 - [como contribuo](#%EF%B8%8Fquero-contribuir)
+    - [Coisas a fazer](#coisas-que-ainda-não-foram-feitas)
+    - [Como contribir](#como-contribuo-pelo-github)
 
 [![Routes Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Dione%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMiguel-Coruj%2FDione-BackEnd%2Fmaster%2FRotas-Insomnia.json)
 ---

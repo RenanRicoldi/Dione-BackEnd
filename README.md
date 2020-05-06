@@ -17,12 +17,12 @@ Mas você me pergunta e os ebooks, você também os acha lá e pode baixar e ler
 ### Coisas que ainda não foram feitas
 | Feito ou Não feito | A fazer |
 | ------------------ | ------- |
-| [x] | Usuário |
-| [ ] | Biblioteca |
-| [ ] | Livro |
-| [ ] | Pesquisa de Livro |
-| [ ] | Pesquisa de Biblioteca |
-| [ ] | Pesquisa de Livros por Localização |
+| ✔ | Usuário |
+| ❌ | Biblioteca |
+| ❌ | Livro |
+| ❌ | Pesquisa de Livro |
+| ❌ | Pesquisa de Biblioteca |
+| ❌ | Pesquisa de Livros por Localização |
 
 ### Como contribuo pelo github
 1- Clone o repositório: 

@@ -17,16 +17,6 @@ Mas você me pergunta e os ebooks, você também os acha lá e pode baixar e ler
 ---
 # 🙋‍♀️Quero contribuir
 
-### Coisas que ainda não foram feitas
-| Feito ou Não feito | A fazer |
-| ------------------ | ------- |
-| ✔ | Usuário |
-| ❌ | Biblioteca |
-| ❌ | Livro |
-| ❌ | Pesquisa de Livro |
-| ❌ | Pesquisa de Biblioteca |
-| ❌ | Pesquisa de Livros por Localização |
-
 ### Como contribuo pelo github
 1- Clone o repositório: 
 ```
@@ -40,3 +30,12 @@ git fetch upstream
 git merge upstream/master
 
 ```
+### Coisas que ainda não foram feitas
+| Feito ou Não feito | A fazer |
+| ------------------ | ------- |
+| ✔ | Usuário |
+| ❌ | Biblioteca |
+| ❌ | Livro |
+| ❌ | Pesquisa de Livro |
+| ❌ | Pesquisa de Biblioteca |
+| ❌ | Pesquisa de Livros por Localização |

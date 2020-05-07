@@ -7,7 +7,7 @@
 [![Routes Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Dione%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMiguel-Coruj%2FDione-BackEnd%2Fmaster%2FRotas-Insomnia.json)
 ---
 # o que é o Dione
-#### Dione, nada mais é um projeto no qual juntará a biblioteca, os livro e o leitor.
+#### Dione, nada mais é um projeto no qual juntará a biblioteca, os livros e o leitor.
 
 Com o Dione você pode procurar um livro pelo App ou pelo Site, com isso você pode pegar livros emprestados ou comprar sem ter que ir pesquisando de loja em loja!
 

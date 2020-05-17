@@ -1,4 +1,4 @@
-const User = require('../database/User')
+const User = require('../../database/User')
 
 module.exports = {
     async create(req, res) {

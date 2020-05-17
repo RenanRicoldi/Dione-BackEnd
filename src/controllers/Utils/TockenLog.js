@@ -6,4 +6,4 @@ module.exports = (params = {}) => {
         process.env.SecretHash, 
         { expiresIn: 2629744 }
     )
-};
+}

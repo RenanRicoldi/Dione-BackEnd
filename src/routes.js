@@ -1,7 +1,7 @@
 const {  Router  } = require('express')
 
-const User = require('./controllers/UserController')
-const tocken = require('./controllers/TockenControllers')
+const User = require('./controllers/User/UserController')
+const tocken = require('./controllers/User/TockenControllers')
 
 const routes = Router()
 

@@ -6,6 +6,7 @@ const UserSchema = new mongoose.Schema({
         type: String, 
         required: true
     },
+    photo: URL,
     password: {
         type: String,
         required: true,
@@ -15,10 +16,6 @@ const UserSchema = new mongoose.Schema({
         type: String,
         unique: true,
         required: true,
-    },
-    token: {
-        type: String,
-        select: false,
     },
     ResetPass: {
         type: String,

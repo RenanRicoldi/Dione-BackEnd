@@ -19,7 +19,7 @@ const LibraySchema = new mongoose.Schema({
         type: Date,
         select: false,
     },
-    urlSoon: URL,
+    urlSoon: String,
     books: {
         type: [mongoose.Schema.Types.ObjectId],
         ref: 'Books'

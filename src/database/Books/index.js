@@ -13,7 +13,7 @@ const BookSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    urlBook: URL,
+    urlBook: String,
     Libray: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Librays'

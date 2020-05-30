@@ -1,15 +1,11 @@
 const {  Router  } = require('express')
 
-const User = require('./controllers/User/UserController')
-const tocken = require('./controllers/User/TockenControllers')
+const User = require('./controllers/User')
+const Library = require('./controllers/Library')
 
 const routes = Router()
 
-routes.post('/register', User.create)
-routes.put('/editar', User.index)
-routes.delete('/delete', User.delete)
-
-routes.post('/autheticate', tocken.index)
-routes.post('/forgot_password', tocken.resPassword)
+routes.use('/user', User)
+routes.post('/library', Library)
 
 module.exports = routes

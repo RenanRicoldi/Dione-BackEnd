@@ -1,4 +1,5 @@
 const User = require('../../database/User')
+const tocken = require('../Utils/TockenLog')
 
 module.exports = {
     async create(req, res) {
@@ -17,8 +18,10 @@ module.exports = {
         }).catch(res.status(400).json({"error": "email já existe"}))
 
         user.password = undefined
-        
-        res.json({user})
+      
+        const tockens = token({ id: user.id })
+
+        res.json({user, tockens})
     },
 
     async index(req, res) {
@@ -28,7 +31,7 @@ module.exports = {
     },
 
     async delete(req, res) {
-        const de = await User.findByIdAndDelete(req.body.id)
-        res.json({de})
+        const delet = await User.findByIdAndDelete(req.body.id)
+        res.json({delet})
     },
-}   
+}

@@ -5,11 +5,11 @@ module.exports = {
     async create(req, res) {
         const { name, email, password } = req.body
         if(!name || !req.body.name)
-        res.status(400).json({ "error": "nome não existe" })
+        return res.status(400).json({ "error": "nome não existe" })
         if(!email || !req.body.email)
-        res.status(400).json({ "error": "email não existe" })
+        return res.status(400).json({ "error": "email não existe" })
         if(!password || !req.body.password)
-        res.status(400).json({ "error": "senha não existe" })
+        return res.status(400).json({ "error": "senha não existe" })
 
         const user = await User.create({
             name,
@@ -25,7 +25,7 @@ module.exports = {
     },
 
     async index(req, res) {
-        const users = await User.find()
+        const {name, email } = req.body
 
         res.json({users})
     },

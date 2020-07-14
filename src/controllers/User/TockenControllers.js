@@ -39,7 +39,4 @@ module.exports = {
 
         res.json(tockenReset)
     },
-    async LogTocken(req, res) {
-        
-    }
 }

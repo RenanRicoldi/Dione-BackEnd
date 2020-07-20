@@ -10,17 +10,23 @@ module.exports = {
         return res.status(400).json({"error": "nome não existe"})
         if(!password || !req.body.password)
         return res.status(400).json({"error": "senha não existe"})
+        if(password.length < 8)
+        return res.status(400).json({"error": "senha que 8 caracteres"})
         if(!urlSoon || !req.body.urlSoon)
         return res.status(400).json({"error": "URL da foto não existe"})
         
+        const libraryEmail = await Library.exists({email})
+        if(libraryEmail)
+        return res.status(400).json({"error": "Email, já cadastrado"})
         const library = await  Library.create({
             email,
             name,
             password,
             urlSoon,
-        }).catch(res.status(400).json({"error": "email já existe"}))
+        })
 
-        user.password = undefined
+        if(library)
+        library.password = undefined
 
         res.json({library})
     },

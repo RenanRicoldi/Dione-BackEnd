@@ -33,9 +33,9 @@ git merge upstream/master
 ### Coisas que ainda não foram feitas
 | Feito ou Não feito | A fazer |
 | ------------------ | ------- |
-| ✔ | Usuário |
-| ❌ | Biblioteca |
-| ❌ | Livro |
-| ❌ | Pesquisa de Livro |
-| ❌ | Pesquisa de Biblioteca |
-| ❌ | Pesquisa de Livros por Localização |
+| ✅ | Usuário |
+| 🟡 | Biblioteca |
+| 🔴 | Livro |
+| 🔴 | Pesquisa de Livro |
+| 🔴 | Pesquisa de Biblioteca |
+| 🔴 | Pesquisa de Livros por Localização |

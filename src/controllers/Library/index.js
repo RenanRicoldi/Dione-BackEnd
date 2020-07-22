@@ -6,6 +6,6 @@ const LibraryToken = require('./TokenControllers')
 const routes = Router()
 
 routes.post('/register', Library.create)
-routes.post('/autheticate', LibraryToken.index)
+routes.post('/authenticate', LibraryToken.index)
 
 module.exports = routes
